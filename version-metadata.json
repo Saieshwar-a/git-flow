@@ -1,9 +1,9 @@
 {
   "files": {
-    "path/file1": { git-flow/temp/temp/Program.cs
+    "path/file1": { **/*.sln
       "version": "1.01"
     },
-    "path2/file2": { git-flow/temp/temp/Program.cs
+    "path2/file2": { **/*.sln
       "version": "1.01"
     }
   }
