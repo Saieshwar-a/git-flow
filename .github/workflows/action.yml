@@ -5,13 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1.0.0
-        with:
-          gitversion-version: 5.1.1
+      
       - name: Git Version
-  # You may pin to the exact commit or the version.
-  # uses: codacy/git-version@fa06788276d7492a2af01662649696d249ecf4cb
+        id: version
         uses: codacy/git-version@2.7.1
-        with:
-    # The name of the dev branch
-          dev-branch: main
+   
   
