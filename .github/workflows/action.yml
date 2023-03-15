@@ -10,7 +10,7 @@ jobs:
       - name: Git Version
   # You may pin to the exact commit or the version.
   # uses: codacy/git-version@fa06788276d7492a2af01662649696d249ecf4cb
-        uses: codacy/git-version@a6d2806ab77fafc95638e0e38a0e7da11ec6c005
+        uses: codacy/git-version@v1.0.0
         with:
     # The name of the dev branch
           dev-branch: main
