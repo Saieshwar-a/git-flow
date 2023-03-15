@@ -14,8 +14,4 @@ jobs:
         with:
     # The name of the dev branch
           dev-branch: main
-          prefix: SHS-Version
-      - name: Use the version
-        run: |
-          echo${{ steps.version.outputs.version}}
   
