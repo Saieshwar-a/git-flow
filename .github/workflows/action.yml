@@ -1,14 +1,11 @@
-name: Checkout
-uses: actions/checkout@v2
-with:
-  fetch-depth: 0
-uses:paulhatch/semantic-version@v5.0.2
+
+uses: paulhatch/semantic-version@v5.0.2
 with:
     # The prefix to use to identify tags
-  tag_prefix:'v'
+  tag_prefix:"v"
     # A string which, if present in a git commit, indicates that a change represents a
     # major (breaking) change, supports regular expressions wrapped with '/'
-  major_pattern: '(MAJOR)'
+  major_pattern: "(MAJOR)"
     # A string which indicates the flags used by the `major_pattern` regular expression. Supported flags: idgs
   major_regexp_flags: ""
     # Same as above except indicating a minor change, supports regular expressions wrapped with '/'
